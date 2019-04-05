@@ -1,0 +1,25 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "make a burger eat a burger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BostonKapp/Burger.git"
+  },
+  "author": "Devon Galloway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BostonKapp/Burger/issues"
+  },
+  "homepage": "https://github.com/BostonKapp/Burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.16.0"
+  }
+}
